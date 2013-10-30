@@ -141,7 +141,7 @@
 				console.log(data);
 				if ($.trim(data.status)=='true') {
 					$.cookie('mobsci_token', data.token, {expires: 5});
-					window.location.href = 'explore';
+					window.location.href = './explore/';
 				} else {
 					$('.error').show();
 				}
