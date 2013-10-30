@@ -1,0 +1,32 @@
+.mplTranslator{
+	-webkit-transition-duration:1s;
+	-moz-transition-duration:1s;
+	-ms-transition-duration:1s;
+	-o-transition-duration:1s;
+	transition-duration:1s;
+}
+#MetroPreLoader_Container{
+	-o-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	width:100%;
+	height:100%;
+	position:fixed;
+	z-index:999999;
+	top:0px;
+	left:0px;
+}
+#MetroPreLoader_Center{
+	text-align:center;
+	margin-top:40px;
+}
+#MetroPreLoader_crazyloader{
+	width:40px;
+	height:40px;
+	display:block;
+	margin:auto;
+	margin-top:20px;
+}
